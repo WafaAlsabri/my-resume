@@ -732,11 +732,9 @@ nav ul li a:hover::after{
   /*about*/
 
   .img{justify-content: center;}
-.text{
-  
-  
-  justify-content: center;
-  padding: 1rem 5rem;}
+
+
+
  
 
 
@@ -1580,6 +1578,20 @@ transition: transform 0.45s;
     @media(max-width: 767px){
 
 
+    
+
+         #skills{
+        margin-top: 37rem;
+    
+
+      }
+      .text{
+  
+        margin-top: 0rem;
+        width: 550px;
+     justify-content: center;
+     padding: 1rem 5rem;}
+
       
 .go_top {
 
@@ -1780,6 +1792,8 @@ margin: 0;
     resize: none;
     height: 120px;
   }
+
+ 
   .contact-form-btn{
     /* float: right; */
     border: 0;
@@ -1837,8 +1851,8 @@ margin: 0;
     margin: 0 30px 0 30px;
   }
   .med-card .circle {
-    width: 325px;
-    height: 325px;
+    width: 223px;
+    height: 234px;
     border: 1px solid rgb(255 160 54);
     border-radius: 50%;
     margin: 12px;
@@ -1846,7 +1860,7 @@ margin: 0;
   .med-card img {
     width: 70px;
     height: 70px;
-    margin: 50px 0 0 137px;
+    margin: 5px 0 0 75px;
   
   }
   
@@ -1887,5 +1901,13 @@ margin: 0;
     height: 100vh;
     margin-top: 7rem;
 }
-  
-  
+@media(max-width: 767px){
+.med-card {
+  width: 259px;
+  height: 259px;
+  background: rgb(96, 94, 94);
+  box-shadow: 5px 5px 10px rgb(96 94 94), -5px -5px 10px rgb(96 94 94);
+  border-radius: 50%;
+  margin: 14px 48px 30px 30px;
+}
+}
