@@ -1590,7 +1590,7 @@ transition: transform 0.45s;
       }
       .text{
   
-        margin-top: 0rem;
+        margin-top: -15rem;
         width: 550px;
      justify-content: center;
      padding: 1rem 5rem;}
