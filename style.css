@@ -1577,7 +1577,10 @@ transition: transform 0.45s;
     
     @media(max-width: 767px){
 
+      #uplaoading ul{
 
+        margin-top: -100rem;
+      }
     
 
          #skills{
