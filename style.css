@@ -1610,10 +1610,11 @@ transition: transform 0.45s;
   .blob-btn {
     z-index: 1;
     position: relative;
-    padding: 11px 24px;
+   
+    padding: 11px 55px;
     /* margin-bottom: 30px; */
   color: rgb(255 160 54);;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: bold;
     /* background-color: transparent; */
     outline: none;
@@ -1845,7 +1846,7 @@ margin: 0;
   }
   
   .med-card {
-    width: 327px;
+    width: 332px;
     height: 339px;
     background: rgb(96, 94, 94);
     box-shadow: 5px 5px 10px rgb(96, 94, 94), -5px -5px 10px rgb(96, 94, 94);
@@ -1862,7 +1863,7 @@ margin: 0;
   .med-card img {
     width: 70px;
     height: 70px;
-    margin: 5px 0 0 117px;
+    margin: 23px 0 0 117px;
   
   }
   
