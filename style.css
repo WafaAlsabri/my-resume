@@ -60,23 +60,23 @@ background-color: #252424;
         #uplaoading ul li:nth-child(1){
           animation-delay: 0s;
           background-color: #FFA036;
-          box-shadow: 0px 0px 50px red;
+          box-shadow: 0px 0px 50px rgb(143, 141, 141);
           }
 
           #uplaoading ul li:nth-child(2){
             animation-delay: .5s;
             background-color: #FFA036;
-            box-shadow: 0px 0px 50px red;
+            box-shadow: 0px 0px 50px rgb(143, 141, 141);
             }
             #uplaoading ul li:nth-child(3){
               animation-delay: 0s;
               background-color: #FFA036;
-              box-shadow: 0px 0px 50px red;
+              box-shadow: 0px 0px 50px rgb(143, 141, 141);
               }
               #uplaoading ul li:nth-child(4){
                 animation-delay: 0s;
                 background-color: #FFA036;
-                box-shadow: 0px 0px 50px red;
+                box-shadow: 0px 0px 50px rgb(143, 141, 141);
                 }
       
 .blobCont {
@@ -1183,7 +1183,7 @@ h1{display: flex;
 
 @media screen and (max-width: 768px) {
   .slide-content{
-    margin: 0 10px;
+    margin: 0 19px;
   }
   .swiper-navBtn{
     display: none;
@@ -1579,7 +1579,7 @@ transition: transform 0.45s;
 
       #uplaoading ul{
 
-        margin-top: -220rem;
+        margin-top: -230rem;
       }
     
 
@@ -1590,7 +1590,7 @@ transition: transform 0.45s;
       }
       .text{
   
-        margin-top: -15rem;
+        margin-top: -10rem;
         width: 550px;
      justify-content: center;
      padding: 1rem 5rem;}
@@ -1603,7 +1603,7 @@ transition: transform 0.45s;
 }
 
       img {
-    
+        /* margin-bottom: -5rem; */
         width: 301px;
     }
     
@@ -1628,7 +1628,7 @@ transition: transform 0.45s;
 
 
       #main {
-        padding-top: 6rem;}
+        padding-top: 0;}
 
 .wrapper ul {
           position: fixed;
@@ -1854,8 +1854,8 @@ margin: 0;
     margin: 0 30px 0 30px;
   }
   .med-card .circle {
-    width: 223px;
-    height: 234px;
+    width: 311px;
+    height: 313px;
     border: 1px solid rgb(255 160 54);
     border-radius: 50%;
     margin: 12px;
@@ -1863,7 +1863,7 @@ margin: 0;
   .med-card img {
     width: 70px;
     height: 70px;
-    margin: 5px 0 0 75px;
+    margin: 5px 0 0 117px;
   
   }
   
@@ -1905,6 +1905,7 @@ margin: 0;
     margin-top: 7rem;
 }
 @media(max-width: 767px){
+  
 .med-card {
   width: 259px;
   height: 259px;
@@ -1912,5 +1913,18 @@ margin: 0;
   box-shadow: 5px 5px 10px rgb(96 94 94), -5px -5px 10px rgb(96 94 94);
   border-radius: 50%;
   margin: 14px 48px 30px 30px;
+}
+
+.med-card .circle {
+  width: 237px;
+  height: 235px;}
+
+  .med-card img {
+    width: 70px;
+    height: 70px;
+    margin: 5px 0 0 80px;
+}
+.text h3 {
+  width: 14rem;
 }
 }
