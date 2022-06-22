@@ -1182,9 +1182,9 @@ h1{display: flex;
 }
 
 @media screen and (max-width: 768px) {
-  .slide-content{
+  /* .slide-content{
     margin: 0 19px;
-  }
+  } */
   .swiper-navBtn{
     display: none;
   }
@@ -1612,8 +1612,7 @@ transition: transform 0.45s;
     position: relative;
     padding: 11px 24px;
     /* margin-bottom: 30px; */
-    text-align: center;
-    color: rgb(255 160 54);
+  color: rgb(255 160 54);;
     font-size: 14px;
     font-weight: bold;
     /* background-color: transparent; */
@@ -1846,8 +1845,8 @@ margin: 0;
   }
   
   .med-card {
-    width: 350px;
-    height: 350px;
+    width: 327px;
+    height: 339px;
     background: rgb(96, 94, 94);
     box-shadow: 5px 5px 10px rgb(96, 94, 94), -5px -5px 10px rgb(96, 94, 94);
     border-radius: 50%;
